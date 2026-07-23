@@ -56,7 +56,6 @@ Desarrollar un prototipo automatizado para el tratamiento y monitoreo del agua e
 ## Hardware
 
 - ESP32
-- Raspberry Pi 3
 - Sensor de Turbidez
 - Sensor TDS
 - Sensor de pH
@@ -90,7 +89,7 @@ Posteriormente el agua atraviesa un sistema de filtración compuesto por diferen
 
 Durante el proceso diversos sensores monitorean la calidad del agua.
 
-La información es procesada por el ESP32 y puede visualizarse mediante la Raspberry Pi.
+La información es procesada por el ESP32 y puede visualizarse mediante la pantalla LCD 20X4.
 
 Finalmente se obtiene agua tratada junto con las mediciones correspondientes.
 
