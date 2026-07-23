@@ -10,7 +10,8 @@ Proyecto desarrollado para la asignatura Taller de Proyectos.
 # Integrantes
 
 - Alberth Guzmán
-- Nombre del compañero
+-Luisa Peralta
+-Manuel Merchan
 
 ---
 
