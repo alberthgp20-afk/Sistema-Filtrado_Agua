@@ -3,7 +3,7 @@
 ## Universidad Nacional de Colombia
 **Facultad de Ingeniería**
 
-Proyecto desarrollado para la asignatura Taller de Proyectos.
+Proyecto desarrollado para la asignatura Taller de Ingenieria Electronica.
 
 ---
 
