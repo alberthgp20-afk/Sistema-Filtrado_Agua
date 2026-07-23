@@ -1,82 +1,124 @@
-# Sistema Automatizado de Filtrado y Monitoreo de Agua
+# 💧 Sistema Automatizado de Filtrado y Monitoreo de Agua para Aljibes Rurales
 
-## Universidad Nacional de Colombia
-**Facultad de Ingeniería**
-
-Proyecto desarrollado para la asignatura Taller de Ingenieria Electronica.
+Proyecto desarrollado para la asignatura **Taller de Proyectos** de la **Universidad Nacional de Colombia - Sede Bogotá**.
 
 ---
 
 # Integrantes
 
-- Alberth Guzmán
--Luisa Peralta
--Manuel Merchan
+- Albert Guzmán Palma
+- Luisa Fernanda Peralta Vera
+- John Darwin Chaparro Landaeta
+- Manuel Alejandro Merchán Vargas
 
 ---
 
 # Descripción
 
-Este proyecto consiste en el diseño e implementación de un sistema automatizado capaz de monitorear la calidad del agua en aljibes rurales mediante sensores electrónicos y un sistema de filtrado.
+Este proyecto consiste en el desarrollo de un prototipo automatizado capaz de monitorear y apoyar el tratamiento del agua proveniente de aljibes rurales mediante un sistema de filtración y sensores electrónicos.
 
-El sistema permite analizar diferentes parámetros del agua y controlar automáticamente el proceso de tratamiento.
+El prototipo integra un sistema de bombeo, materiales filtrantes y sensores de monitoreo que permiten evaluar parámetros importantes de la calidad del agua durante el proceso de tratamiento.
+
+Los datos obtenidos permiten conocer el estado del agua antes y después del proceso de filtración.
+
+---
+
+# Problemática
+
+En muchas zonas rurales de Colombia las comunidades obtienen el agua mediante aljibes, pozos artesanales o nacederos.
+
+En numerosos casos esta agua no recibe un tratamiento adecuado antes de ser consumida, lo que incrementa el riesgo de enfermedades ocasionadas por microorganismos, sedimentos y otros contaminantes.
+
+Este proyecto propone una alternativa de bajo costo basada en automatización para contribuir al tratamiento y monitoreo del agua.
 
 ---
 
 # Objetivo General
 
-Diseñar un prototipo automatizado para el monitoreo y tratamiento de agua utilizando sensores electrónicos y un sistema de control basado en ESP32.
+Desarrollar un prototipo automatizado para el tratamiento y monitoreo del agua en aljibes rurales mediante un sistema de filtración y sensores electrónicos.
 
 ---
 
 # Objetivos Específicos
 
-- Medir la turbidez del agua.
-- Medir la concentración de sólidos disueltos (TDS).
-- Detectar el nivel del agua.
-- Automatizar el accionamiento de bombas.
-- Monitorear el sistema mediante una Raspberry Pi.
+- Diseñar un sistema de filtración de bajo costo.
+
+- Implementar sensores para monitorear la calidad del agua.
+
+- Automatizar el proceso mediante un ESP32.
+
+- Evaluar el funcionamiento del prototipo.
 
 ---
 
-# Componentes utilizados
+# Componentes
+
+## Hardware
 
 - ESP32
+- Raspberry Pi 3
 - Sensor de Turbidez
 - Sensor TDS
-- Sensores de Nivel del Agua
+- Sensor de pH
+- Sensores de Nivel
 - Bombas Sumergibles
-- Fuente de alimentación
 - Protoboard
+- Fuente de alimentación
 - Mangueras
-- Jumpers
-  
+- Recipientes
+- Material filtrante
 
 ---
 
-# Estructura del repositorio
+## Software
 
-📁 Docs
+- Arduino IDE
+- MicroPython
+- Python
+- GitHub
+- Draw.io
+- KiCad
+- FreeCAD
 
-Documentación del proyecto.
+---
 
-📁 Codigo
+# Arquitectura General
 
-Código fuente.
+El sistema recibe agua proveniente del aljibe.
 
-📁 pcb
+Posteriormente el agua atraviesa un sistema de filtración compuesto por diferentes materiales.
+
+Durante el proceso diversos sensores monitorean la calidad del agua.
+
+La información es procesada por el ESP32 y puede visualizarse mediante la Raspberry Pi.
+
+Finalmente se obtiene agua tratada junto con las mediciones correspondientes.
+
+---
+
+# Organización del repositorio
+
+📂 Docs
+
+Documentación técnica.
+
+📂 Codigo
+
+Código fuente del proyecto.
+
+📂 pcb
 
 Diseño electrónico.
 
-📁 3D
+📂 3D
 
-Modelos tridimensionales.
+Diseños del contenedor.
 
-📁 Imagenes
+📂 Imagenes
 
-Fotografías del prototipo.
+Fotografías del proyecto.
 
-📁 Videos
+📂 Videos
 
 Videos demostrativos.
 
@@ -84,10 +126,24 @@ Videos demostrativos.
 
 # Estado del proyecto
 
-En desarrollo.
+Proyecto académico desarrollado durante el semestre 2026-1.
+
+Actualmente el prototipo se encuentra finalizado y en fase de documentación.
+
+---
+
+# Resultados Esperados
+
+- Disminución de la turbidez.
+
+- Monitoreo automático del agua.
+
+- Visualización de variables medidas.
+
+- Automatización del proceso de filtración.
 
 ---
 
 # Licencia
 
-Proyecto académico desarrollado para la Universidad Nacional de Colombia.
+Proyecto desarrollado con fines exclusivamente académicos para la Universidad Nacional de Colombia.
