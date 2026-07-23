@@ -42,14 +42,15 @@ Diseñar un prototipo automatizado para el monitoreo y tratamiento de agua utili
 # Componentes utilizados
 
 - ESP32
-- Raspberry Pi 3
 - Sensor de Turbidez
 - Sensor TDS
-- Sensores de Nivel
+- Sensores de Nivel del Agua
 - Bombas Sumergibles
 - Fuente de alimentación
 - Protoboard
 - Mangueras
+- Jumpers
+  
 
 ---
 
